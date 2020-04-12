@@ -3,9 +3,9 @@
 // 数据库配置
 $config = [
     'host' => '127.0.0.1',
-    'database' => 'www_lsydt_store',
-    'username' => 'www_lsydt_store',
-    'password' => 'PEdDZ5pmfcR8yHEN',
+    'database' => 'shopping',
+    'username' => 'root',
+    'password' => '',
     'port' => '3306',
     'charset' => 'utf8',
 ];
