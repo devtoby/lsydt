@@ -1,0 +1,40 @@
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+/* ==========================================
+Single-colored icons can be modified like so:
+.icon-name {
+  font-size: 32px;
+  color: red;
+}
+========================================== */
+
+.icon-lingquan {
+  width: 1.0009765625em;
+}
+
+.icon-dianpu2 {
+  width: 1.0078125em;
+}
+
+.icon-favorites {
+  width: 1.1162109375em;
+}
+
+.icon-pailie {
+  width: 1.3896484375em;
+}
+
+.icon-unif {
+  width: 1.1875em;
+}
+
+.icon-wancheng1 {
+  width: 1.1201171875em;
+}
