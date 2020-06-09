@@ -137,6 +137,9 @@
                                                         <a class="tpl-table-black-operation-green"
                                                            href="<?= url('order/detail', ['order_id' => $order['order_id']]) ?>">
                                                             订单详情</a>
+                                                        <a class="tpl-table-black-operation-green"
+                                                           href="<?= url('order/printOrder', ['order_id' => $order['order_id']]) ?>" target="_blank">
+                                                            订单打印</a>
                                                     <?php endif; ?>
                                                     <?php if (checkPrivilege(['order/detail', 'order/delivery'])): ?>
                                                         <?php if ($order['pay_status']['value'] == 20

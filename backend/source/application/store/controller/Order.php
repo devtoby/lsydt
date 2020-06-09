@@ -72,6 +72,13 @@ class Order extends Controller
         return $this->getList('全部订单列表', 'all');
     }
 
+    public function printOrder($order_id)
+    {
+        return $this->fetch('print', [
+            'detail' => OrderModel::detail($order_id),
+            'express_list' => ExpressModel::getAll()
+        ]);
+    }
     /**
      * 订单详情
      * @param $order_id
